@@ -1,0 +1,1 @@
+{"Product":"Widget","Price":29.99,"Category":"Electronics","InStock":true,"Tags":["gadget","new","popular"],"Metadata":{"CreatedDate":"2025-10-11","CreatedBy":"System"}}

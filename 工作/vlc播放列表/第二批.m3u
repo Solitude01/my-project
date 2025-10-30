@@ -1,0 +1,105 @@
+#EXTM3U
+#EXTINF:-1,G2-3F-软金线线头
+rtsp://admin:Admin123@10.66.104.108:554/Streaming/Channels/101
+#EXTINF:-1,G3-2F-阻焊后固化RGV
+rtsp://admin:Admin123@10.66.68.19:554/Streaming/Channels/101
+#EXTINF:-1,G3-3F-沉铜后烘烤RGV
+rtsp://admin:Admin123@10.66.84.28:554/Streaming/Channels/101
+#EXTINF:-1,G3-3F-压合后烘烤RGV
+rtsp://admin:Admin123@10.66.84.47:554/Streaming/Channels/101
+#EXTINF:-1,G3-2F-AOIAOS中部区域
+rtsp://admin:Admin123@10.66.72.31:554/Streaming/Channels/101
+#EXTINF:-1,G9-2F-CTU库机械臂
+rtsp://admin:Admin123@10.66.151.90
+#EXTINF:-1,G9-1F-机械臂2
+rtsp://admin:Admin123@10.66.151.37
+#EXTINF:-1,G9-1F-机械臂1
+rtsp://admin:Admin123@10.66.151.35
+#EXTINF:-1,W6B-2F-电镀2线下料机
+rtsp://admin:scc12345@10.152.169.4:554
+#EXTINF:-1,W6B-2F-电镀2线上料机
+rtsp://admin:scc12345@10.152.169.5:554
+#EXTINF:-1,W6B-2F-电镀4/5线上料机
+rtsp://admin:scc12345@10.152.168.141:554
+#EXTINF:-1,W6B-2F-电镀4线上料机
+rtsp://admin:scc12345@10.152.167.103:554
+#EXTINF:-1,W6B-2F-软金1线机械手
+rtsp://admin:scc12345@10.152.169.35:554
+#EXTINF:-1,W6B-2F-电镀4线前段转向
+rtsp://admin:scc12345@10.152.168.156:554
+#EXTINF:-1,W6B-2F-电镀2/3线后处理
+rtsp://admin:scc12345@10.152.167.106:554
+#EXTINF:-1,W6B-2F-电镀2/3线后处理
+rtsp://admin:scc12345@10.152.167.83:554
+#EXTINF:-1,W6B-3F-显影2线机械臂
+rtsp://admin:scc12345@10.152.169.34:554
+#EXTINF:-1,W6B-1F-一层仓库油墨立体库入库间
+rtsp://admin:scc12345@10.152.167.73:554
+#EXTINF:-1,4F过程打标2号机
+rtsp://admin:Admin123@10.66.100.89:554/Streaming/Channels/101
+#EXTINF:-1,4F过程打标1号机
+rtsp://admin:Admin123@10.66.100.90:554/Streaming/Channels/101
+#EXTINF:-1,G2-2F204-2J09柱子
+rtsp://admin:Admin123@10.66.104.64:554/Streaming/Channels/101
+#EXTINF:-1,110 钻靶
+rtsp://admin:Admin123@10.66.112.46:554/Streaming/Channels/101
+#EXTINF:-1,3F-软金1#上下料
+rtsp://admin:Admin123@10.66.104.104:554/Streaming/Channels/101
+#EXTINF:-1,G2-3F1#软金线尾
+rtsp://admin:Admin123@10.66.104.178:554/Streaming/Channels/101
+#EXTINF:-1,G2-3F1#软金镍槽侧
+rtsp://admin:Admin123@10.66.108.101:554/Streaming/Channels/101
+#EXTINF:-1,G2-3F1#镍钯金后段
+rtsp://admin:Admin123@10.66.108.100:554/Streaming/Channels/101
+#EXTINF:-1,G2-3F1#镍钯金后段
+rtsp://admin:Admin123@10.66.108.102:554/Streaming/Channels/101
+#EXTINF:-1,G2-3F1#镍钯金后段
+rtsp://admin:Admin123@10.66.108.99:554/Streaming/Channels/101
+#EXTINF:-1,G3-3F-镍钯金天车
+rtsp://admin:Admin123@10.66.80.36:554/Streaming/Channels/101
+#EXTINF:-1,G3-3F-镍钯金天车2
+rtsp://admin:Admin123@10.66.80.37:554/Streaming/Channels/101
+#EXTINF:-1,W6B-2F-软金1线线尾
+rtsp://admin:scc12345@10.152.169.22:554
+#EXTINF:-1,W6B-2F-软金1线线体中金槽
+rtsp://admin:scc12345@10.152.169.19:554
+#EXTINF:-1,W6B-2F-软金1线线体中金槽1
+rtsp://admin:scc12345@10.152.167.215:554
+#EXTINF:-1,W6B-2F-软金1线线体中金槽2
+rtsp://admin:scc12345@10.152.167.216:554
+#EXTINF:-1,W6B-2F-软金1线线体中金槽3
+rtsp://admin:scc12345@10.152.167.217:554
+#EXTINF:-1,W6B-2F-软金1线线体中金槽4
+rtsp://admin:scc12345@10.152.167.218:554
+ 
+
+
+
+●4. 问题：人头识别错误，没有解决（人员尾随） 
+    问题说明：人头识别模型将同一个人的头部识别成了多个目标。 人体烟火模型 更新至 V3 依旧误报-没有解决 
+    进展：人头算法查看，sdk调用正常，图片的时候，一人对应一个人头， 预警接口返回的数据，是有两个人头的数据。 算法在厂内复现问题
+
+●6. 问题：不支持查看多个监控点的预警信息 
+    问题说明：需要支持灵活选择单个或多个监控点进行预警信息的集中查看和管理，目前只能知道名字才能搜索 
+    进展：无
+
+●11. 问题：无法训练可编辑位移技能的模型 
+    问题说明：我们需要自己可以训练带位移的模型 平台产线训练带位移技能的模型（4.0追踪和位移是分开，4.6合到一起了） 实现训练可编辑位移技能的模型 
+    进展：追踪位移产线 新增产线的下周三上
+
+●12. 需求：需要各个产线的标准数据集 
+    问题说明：需要提供我们有的各个产线的标准数据集转换后的格式， 我们可以在每次训练前对照排查。 另外把数据转换失败的原因总结哥运维sop呗 
+    进展：无
+
+●13. 问题：技能下发异常（G2立体库技能） 
+    问题说明：中心端能发布 上线 在中心端配置技能 不能下发到子节点 
+    进展：无
+
+●14. 问题：模型训练异常 
+    问题说明：继上次模型可以训练后 调整后训练又失败 异常不一致 转换失败、评估失败 
+    进展：无
+
+●15. 问题：位移不生效 
+    问题说明：位移技能节点 误报 位移五十像素结果不管是否位移都 报警 
+    更新： 立体库位移 不预警 自己的素材训练的模型不预警 
+    进展： 立体库相关的推理日志里面的置信度都很低， 提卡片给研发处理

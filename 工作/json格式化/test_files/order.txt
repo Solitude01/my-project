@@ -1,0 +1,1 @@
+{"OrderID":"ORD-2025-001","CustomerName":"张三","Items":[{"ProductID":"P001","ProductName":"智能手机","Quantity":1,"Price":5999.99},{"ProductID":"P002","ProductName":"耳机","Quantity":2,"Price":299.99}],"TotalAmount":6599.97,"OrderDate":"2025-10-11T10:30:00"}

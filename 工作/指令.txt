@@ -1,0 +1,127 @@
+双网卡上网
+
+        route add 10.0.0.0 mask 255.0.0.0 10.30.44.254 metric 1 -p
+            10.0.0.0 是内网段地址
+            255.0.0.0 是子网掩码，表示整个 10.*.*.* 网段
+            10.30.44.254 是你的内网网关
+            -p 表示永久添加，系统重启后也会保留
+            route delete 10.0.0.0
+
+打包py软件
+
+        python -m auto_py_to_exe   
+
+安装依赖
+        pip install -r requirements.txt
+
+百度云资源消耗   
+
+        kubectl describe node    
+        查看堡垒机资源消耗才
+        nvidia-smi   
+        训练端资源消耗
+
+    百度云 4.8 在线平台
+                先访问并登录：
+                http://ea53adaf5eac43179e8a6b9f4a8ae72d.login.bce.baidu.com
+                再在同一浏览器中打开：
+                https://yijian.cloud.baidu.com/spi/power/skill/common/store/private
+                登录信息：
+                账号：SN97113
+
+                密码：9pUBCgaq
+
+                帮助中心
+                https://yijian.cloud.baidu.com/spi/help
+
+                佳宇
+                账号：SN47118
+                密码：4fSXQqVc
+
+                账号：SN97113
+                密码：9pUBCgaq
+
+                账号：GX5513
+                密码：5bI4ZBco
+
+上网  
+        http://1.1.1.2/ac_portal/default/pc.html?template=default&tabs=pwd&vlanid=0&url=http://detectportal.firefox.com%2fcanonical.html
+
+clash-verge测试
+        https://weixin.qq.com
+        https://claude.ai.com
+        https://chatgpt.com
+        https://gemini.google.com
+        https://grok.com/
+        https://api2.cursor.sh
+
+linux:本地视频推流
+                D:\laji\mediamtx_v1.14.0_windows_amd64
+                mediamtx.exe
+
+                方案：MediaMTX + FFmpeg 转码推 RTSP 流，
+
+                cd /home/zxy/RTSP
+                放入需要推流的视频
+                
+                cd /home/zxy/mediamtx_v1.13.0_linux_amd64
+                修改配置：/home/zxy/mediamtx_v1.13.0_linux_amd64/mediamtx.yml
+                开启推流：  ./mediamtx
+
+关键文档
+        \\eds\titan\安全环保部\广芯安全组-骆廷方
+        \\Sutong\南通职能部门\智能制造推进部\011-AI项目专项
+        \\ntdata.scc.com.cn\Data_AI
+
+转发claude
+        在您的项目目录下运行：
+
+        cd your-project-folder
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17
+        set ANTHROPIC_BASE_URL=https://anyrouter.top
+        claude
+
+临时使用快手编程模型
+        我的
+        cd D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=bm5DnBcCKpjitkFDTl718xvEkjDMwrepEUmEnmMqK9g & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-cpb6vv-1761266040494606586/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
+        方
+        cd D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=TX2mQXcJPhEGQWTBLVsVSqazNV1P5CkU-Ty9t7qrOXg & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-gylvno-1761641075178152022/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
+        运行后
+          选择你喜欢的主题 + Enter
+          确认安全须知 + Enter
+          使用默认 Terminal 配置 + Enter
+          信任工作目录 + Enter
+
+海康工具大全
+
+        https://partners.hikvision.com/tools?q=
+
+MB平台问题
+                1.目标检测模型标注格式修复
+
+                当前问题：MB平台导出的COCO格式标注数据，在导入4.0平台时显示"成功"，但实际未显示标注内容。
+                修复目标：确保COCO格式标注数据在4.0平台中能正确解析并显示。
+
+
+
+                2.标注文件上传规则优化
+
+                当前限制：用户需通过压缩包形式上传带标注的文件。
+                优化需求：
+                支持直接上传标注文件，无需强制压缩。
+
+广州安防账号密码
+        https://10.66.155.2/portal/ui/system-configuration
+        administrator
+        zxc732580
+
+安全（骆廷方所有项目回调地址）
+        http://sedp.cloud.scc.com/sedp/sedp-main/api/ai/alarm/report/baidu
+其他项目（质量类）回调地址：
+        http://sedp.cloud.scc.com/sedp/cgi/api/process_monitor/alarm
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python txt_to_json_converter.py:*)",
+      "Bash(python test_new_features.py:*)",
+      "Bash(python test_simple.py:*)",
+      "Bash(python modern_converter.py:*)",
+      "Bash(python modern_converter_fixed.py:*)",
+      "Bash(python modern_converter_optimized.py:*)",
+      "Bash(python high_contrast_converter.py:*)",
+      "Bash(pkill:*)",
+      "Bash(taskkill /F /IM python.exe:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
