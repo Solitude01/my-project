@@ -1,0 +1,38 @@
+# === 核心依赖：标签转换与图像处理 ===
+labelme2coco==0.2.6
+numpy==1.24.4
+opencv-python==4.11.0.86
+pandas==2.0.3
+pillow==10.4.0
+pybboxes==0.1.6
+pyyaml==6.0.2
+
+# === 科学计算与数据分析核心 ===
+scipy==1.10.1
+scikit-learn==1.3.2
+joblib==1.4.2
+threadpoolctl==3.5.0
+
+# === 绘图与可视化（通常是 labelme2coco 或 scikit-learn 的间接依赖）===
+matplotlib==3.7.5
+contourpy==1.1.1  # ⚠️ 需解决编译问题
+kiwisolver==1.4.7
+cycler==0.12.1
+fonttools==4.57.0
+pyparsing==3.1.4
+
+# === 常用工具与系统依赖 ===
+tqdm==4.67.1
+click==8.1.8
+colorama==0.4.6
+six==1.17.0
+packaging==25.0
+attrs==25.3.0
+certifi==2025.8.3
+charset-normalizer==3.4.2
+idna==3.10
+requests==2.32.4
+urllib3==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2

@@ -122,6 +122,23 @@ MB平台问题
 
 
 
+在Firefox火狐浏览器新标签页打开搜索、书签和链接
+        打开Firefox火狐浏览器设置
+        在Firefox的地址栏输入about:config
+
+        在新标签中打开搜索结果
+        在窗口中输入browser.search.openintab
+        双击显示的值更改为True
+
+        在新标签页打开书签
+        在窗口中输入browser.tabs.loadBookmarksInTabs
+        双击显示的值更改为True
+
+        在新标签页打开网页上的链接
+        在窗口中输入browser.urlbar.openintab
+        双击显示的值更改为True
+
+
 
 
 
