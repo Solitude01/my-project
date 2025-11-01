@@ -73,19 +73,29 @@ linux:本地视频推流
         \\Sutong\南通职能部门\智能制造推进部\011-AI项目专项
         \\ntdata.scc.com.cn\Data_AI
 
-转发claude
+claude CLI
+        
         在您的项目目录下运行：
-
         cd your-project-folder
         set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17
         set ANTHROPIC_BASE_URL=https://anyrouter.top
         claude
 
-临时使用快手编程模型
+
+        带代理 一键打开
+        cd /d D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://anyrouter.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+
+Codex   
+        带代理 一键打开
+        cd /d D:\proiect2 & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & codex
+
+
+KAT coder
+        快手编程模型
         我的
-        cd D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=bm5DnBcCKpjitkFDTl718xvEkjDMwrepEUmEnmMqK9g & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-cpb6vv-1761266040494606586/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
+        cd /d D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=bm5DnBcCKpjitkFDTl718xvEkjDMwrepEUmEnmMqK9g & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-cpb6vv-1761266040494606586/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
         方
-        cd D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=TX2mQXcJPhEGQWTBLVsVSqazNV1P5CkU-Ty9t7qrOXg & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-gylvno-1761641075178152022/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
+        cd /d D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=TX2mQXcJPhEGQWTBLVsVSqazNV1P5CkU-Ty9t7qrOXg & set ANTHROPIC_BASE_URL=https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-gylvno-1761641075178152022/claude-code-proxy & set ANTHROPIC_MODEL=KAT-Coder & set ANTHROPIC_SMALL_FAST_MODEL=KAT-Coder & claude
         运行后
           选择你喜欢的主题 + Enter
           确认安全须知 + Enter
