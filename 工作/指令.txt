@@ -89,7 +89,6 @@ Codex
         带代理 一键打开
         cd /d D:\proiect2 & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & codex
 
-
 KAT coder
         快手编程模型
         我的
@@ -147,7 +146,6 @@ MB平台问题
         在新标签页打开网页上的链接
         在窗口中输入browser.urlbar.openintab
         双击显示的值更改为True
-
 
 
 
