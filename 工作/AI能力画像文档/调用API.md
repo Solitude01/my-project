@@ -1,23 +1,29 @@
-ep-6ympmn-1762245645666144908
-Kimi-K2-Instruct	
 
-ep-ud7mg4-1762237154346030598
-DeepSeek-V3.2-Exp
+deepseek-r1
 
-ep-ljimhg-1762235973363898880
-Qwen3-32B
-	
-ep-cpb6vv-1761266040494606586	
-KAT-Coder-Pro-V1
+http://ds.scc.com.cn/v1
+
+秘钥：“0”
+
+http://10.30.44.159:8000/v1
+Qwen3-8B
 
 
-ID
-ep-aoe271-1762247205952997083
-模型服务
-Kimi-K2-Instruct
+curl -X POST "http://ds.scc.com.cn/v1/chat/completions" -H "Content-Type: application/json" -H "Authorization: Bearer 0" -d "{\"model\": \"deepseek-r1\", \"messages\": [{\"role\": \"user\", \"content\": \"你好，你会写代码 吗，写一个贪吃蛇！\"}]}"
 
-API
-bm5DnBcCKpjitkFDTl718xvEkjDMwrepEUmEnmMqK9g
 
-URL
-https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints
+curl -X POST "http://10.30.44.159:8000/v1/chat/completions" -H "Content-Type: application/json" -H "Authorization: Bearer 0" -d "{\"model\": \"Qwen3-8B\", \"messages\": [{\"role\": \"user\", \"content\": \"你好，你会写代码 吗，写一个贪吃蛇！\"}]}"
+
+
+
+
+项目概述（重要度）
+核心手段（措施）
+
+一、项目意义：
+二、问题陈述：
+三、原因分析：
+四、改进方案：
+五、目标完成情况：
+六、项目成果：
+七、项目推广：
