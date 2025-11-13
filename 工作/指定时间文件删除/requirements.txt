@@ -1,0 +1,6 @@
+# 智能文件夹清理器依赖库
+# 使用方法: pip install -r requirements.txt
+
+# send2trash: 安全删除文件（移动到回收站）而不是永久删除
+# 如果不安装此库，程序仍可运行，但只能使用永久删除功能
+send2trash>=1.8.0

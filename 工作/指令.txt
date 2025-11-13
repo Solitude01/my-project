@@ -76,18 +76,24 @@ linux:本地视频推流
 claude CLI
         
         在您的项目目录下运行：
-        cd your-project-folder
+        cd /d D:\proiect2
         set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17
         set ANTHROPIC_BASE_URL=https://anyrouter.top
         claude
+        
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://anyrouter.top & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://q.quuvv.cn & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://pmpjfbhq.cn-nb1.rainapp.top & claude
 
 
         带代理 一键打开
         cd /d D:\proiect2 & set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://anyrouter.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
-
-        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://q.quuvv.cn & claude
-
-
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://anyrouter.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://q.quuvv.cn &  set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://pmpjfbhq.cn-nb1.rainapp.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://anyrouter.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://q.quuvv.cn &  set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
+        set ANTHROPIC_AUTH_TOKEN=sk-n1N0jOopa5i7uVZMRLXcabYqRZMrQrxWW3avfj0x28DhgG17 & set ANTHROPIC_BASE_URL=https://pmpjfbhq.cn-nb1.rainapp.top & set HTTP_PROXY=http://127.0.0.1:7897 & set HTTPS_PROXY=http://127.0.0.1:7897 & claude
 
 Codex   
         带代理 一键打开
